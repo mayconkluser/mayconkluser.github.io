@@ -1,0 +1,129 @@
+.experiencia .subtitulo {
+  color: #525252;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch;
+  color: #f5f5f5;
+}
+
+.experiencia-texto strong {
+  color: #efc418;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color: #666666;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  position: relative;
+  gap: 10px 20px;
+}
+
+.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#efc418, #b7f39d);
+  position: absolute;
+  left: -4px;
+  top: 20px;
+}
+
+.empresa-ano {
+  position: absolute;
+  text-align: right;
+  width: 80px;
+  left: -100px;
+  top: 22px;
+  color: #f5f5f5;
+  font-size: 0.875rem;
+}
+
+.empresa-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.empresa-texto {
+  font-size: 0.875rem;
+  color: #f5f5f5;
+  line-height: 1.4;
+}
+
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  padding: 5px 10px;
+  background: #000000;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.empresa .empresa-website {
+  font-size: 1rem;
+  color: #ffffff;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.empresa .empresa-website:hover {
+  color: #efc418;
+}
+
+@media (max-width: 900px) {
+  section.experiencia {
+    gap: 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia .subtitulo {
+    color: #f5f5f5;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 auto 20px auto;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+  .empresa-ano::before {
+    content: "Data de criação: ";
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}

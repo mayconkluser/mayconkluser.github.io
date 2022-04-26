@@ -1,0 +1,62 @@
+body {
+  background-color: #444;
+  margin: 0;
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px; /* utilizado junto com a class "faculdade-curso" GAMBIARRA DO BEM*/
+}
+.margin-bottom-10 {
+  margin-bottom: 10px; /* utilizado junto com a class "faculdade-curso" GAMBIARRA DO BEM*/
+}
+
+.subtitulo {
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch; /* "ch"  significa tamanho de 4 carácter, com base no número "0"*/
+}
+
+@media (max-width: 900px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+    text-align: center;
+  }
+}
