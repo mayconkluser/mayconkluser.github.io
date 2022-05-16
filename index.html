@@ -137,7 +137,7 @@
 
     <footer class="footer" id="contato">
         <div class="footer-container">
-            <form action="" class="footer-form">
+            <form action="./enviar.php" method="post" class="footer-form">
                 <div>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
@@ -154,6 +154,7 @@
                     <label for="mensagem">Mensagem:</label>
                     <textarea name="mensagem" id="mensagem" rows="5"></textarea>
                 </div>
+                <button class="btn">Enviar</button>
             </form>
 
             <div class="footer-info">
@@ -173,8 +174,9 @@
             </div>
             <p class="footer-copy">Looma_code. Alguns direitos reservados.</p>
         </div>
-
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/formulario.js"></script>
 </body>
 
 </html>

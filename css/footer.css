@@ -67,6 +67,28 @@
   color: #e0e0e0;
 }
 
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #d95098;
+  color: white;
+}
+
+.btn:hover {
+  background: #efc418;
+}
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
