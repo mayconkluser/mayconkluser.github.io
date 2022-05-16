@@ -11,6 +11,7 @@
   grid-template-columns: 2fr 1fr;
   gap: 100px;
   position: relative;
+  z-index: 2;
 }
 
 .formacao-container::after {
@@ -149,6 +150,7 @@ span.icon-facul-2::before {
     font-size: 1.25rem;
     text-align: center;
     margin: 0 auto 60px auto;
+    max-width: 60ch;
   }
 }
 
@@ -160,4 +162,7 @@ span.icon-facul-2::before {
   .faculdade-lista {
     margin-bottom: 20px;
   }
+}
+
+@media (max-width: 800px) {
 }

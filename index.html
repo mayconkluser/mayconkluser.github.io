@@ -14,99 +14,114 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 
 <body>
+    <div id="particles-js"></div>
     <header class="header">
-        <img src="img/looma_code.svg" alt="Logo descritivo da marca." width="288" height="39">
-        <nav aria-label="Primária">
-            <ul class="header-menu">
-                <li><a href="#experiencia"><span>Experiência</span></a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+        <img src="img/looma_code.svg" alt="Logo descritivo da marca." width="288" height="39" <nav
+            aria-label="Primária">
+        <ul class="header-menu">
+            <li><a href="#experiencia"><span>Experiência</span></a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
         </nav>
     </header>
 
-    <main class="intro container">
+    <main class="intro container ">
 
-        <img src="./img/img-social-bg.png" alt="Imagem do desenvolvedor Web" width="360" height="520">
+        <div class="intro-img fadeInDown" data-anime="200">
+            <img src="./img/img-social-bg.png" alt="Imagem do desenvolvedor Web" width="360" height="520">
+        </div>
 
         <div>
-            <h1>Desenvolvedor <br>Front End & <br>UX/UI Designer</h1>
-            <p>Maycon Diego Klüser</p>
-            <p>Desenvolvedor Junior</p>
-            <p>Localizado em Santa Catarina</p>
+            <h1 class="fadeInDown" data-anime="400">Desenvolvedor <br>Front End & <br>UX/UI Designer</h1>
+            <p class="fadeInDown" data-anime="600">Maycon Diego Klüser</p>
+            <p class="fadeInDown" data-anime="600">Desenvolvedor Junior</p>
+            <p class="fadeInDown" data-anime="600"> Localizado em Santa Catarina</p>
         </div>
     </main>
 
-    <section class="experiencia container" id="experiencia" aria-label="Experiência">
-        <h2 class="subtitulo">Experiência</h2>
-        <div>
-            <p class="experiencia-texto">Desenvolvo pequenos projetos como o Looma code, Boa Boca e Focus Células
-                Industriais utilizando
-                <strong>HTML</strong>,
-                <strong>CSS</strong>, <strong>JavaScript</strong>.
-            </p>
-            <div class="empresa">
-                <span class="empresa-ano">14/03/2022</span>
-                <h3 class="empresa-titulo">Looma Code</h3>
-                <span class="empresa-titulo">Desenvolvedor Front-end</span>
-                <p class="empresa-texto">Este é o meu primeiro projeto pessoal e meu atual website, colocando em pratica
-                    minhas habilidades
-                    com ferramentas de programação e design.</p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>UI design / UX design</li>
-                </ul>
-                <a class="empresa-website" target="_blank"
-                    href="https://mayconkluser.github.io/">www.loomacode.com.br</a>
+    <section class="experiencia" id="experiencia" aria-label="Experiência">
+        <div class="container">
+
+            <h2 class="subtitulo">Experiência</h2>
+            <div>
+                <p class="experiencia-texto">Desenvolvo pequenos projetos como o Looma code, Boa Boca e Focus Células
+                    Industriais utilizando
+                    <strong>HTML</strong>,
+                    <strong>CSS</strong>, <strong>JavaScript</strong>.
+                </p>
+                <div class="empresa">
+                    <span class="empresa-ano">14/03/2022</span>
+                    <h3 class="empresa-titulo">Looma Code</h3>
+                    <span class="empresa-titulo">Desenvolvedor Front-end</span>
+                    <p class="empresa-texto">Este é o meu primeiro projeto pessoal e meu atual website, colocando em
+                        pratica
+                        minhas habilidades
+                        com ferramentas de programação e design.</p>
+                    <ul class="empresa-habilidades">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>UI design / UX design</li>
+                    </ul>
+                    <a class="empresa-website" target="_blank"
+                        href="https://mayconkluser.github.io/">www.loomacode.com.br</a>
+                </div>
+                <div class="empresa">
+                    <span class="empresa-ano">12/04/2022</span>
+                    <h3 class="empresa-titulo">Bikcraft</h3>
+                    <span class="empresa-titulo">Desenvolvedor Front-end</span>
+                    <p class="empresa-texto">Projeto feito com dicas do professor da Origamid, como um de seus projetos
+                        dos curso de Ui design e HTML, CSS e JS.</p>
+                    <ul class="empresa-habilidades">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>UI design / UX design</li>
+                    </ul>
+                    <a class="empresa-website"
+                        href="https://mayconkluser.github.io/projeto-bikcraft/">www.bikcraft.com.br</a>
+                </div>
+                <div class="empresa">
+                    <span class="empresa-ano">16/05/2022</span>
+                    <h3 class="empresa-titulo">Boa Boca</h3>
+                    <span class="empresa-titulo">Desenvolvedor Front-end</span>
+                    <p class="empresa-texto">Desenvolvi este website, totalmente gratuitamente para um restaurante de
+                        petiscaria conhecido na cidade. Sendo o primero professional.</p>
+                    <ul class="empresa-habilidades">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>UI design / UX design</li>
+                    </ul>
+                    <a class="empresa-website" target="_blank"
+                        href="https://mayconkluser.github.io/projeto-boaboca/">www.boaboca.com.br</a>
+                </div>
+
+
             </div>
 
-            <div class="empresa">
-                <span class="empresa-ano">16/05/2022</span>
-                <h3 class="empresa-titulo">Boa Boca</h3>
-                <span class="empresa-titulo">Desenvolvedor Front-end</span>
-                <p class="empresa-texto">Desenvolvi este website, totalmente gratuitamente para um restaurante de
-                    petiscaria conhecido na cidade. Sendo o primero professional.</p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>UI design / UX design</li>
-                </ul>
-                <a class="empresa-website" target="_blank"
-                    href="https://mayconkluser.github.io/projeto-boaboca/">www.boaboca.com.br</a>
-            </div>
-
-            <!-- <div class="empresa">
-                <span class="empresa-ano">22/05/2022</span>
-                <h3 class="empresa-titulo">Focus Células Industriais</h3>
-                <span class="empresa-titulo">Desenvolvedor Front-end</span>
-                <p class="empresa-texto">Projeto feito para uma empresa da área de metalúrgica, um desafio, com pontos
-                    especificas, com todos os detalhes que necessitavam.</p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>UI design</li>
-                </ul>
-                <a class="empresa-website" href="#">www.focuscelulas.com.br</a>
-            </div> -->
         </div>
     </section>
+
 
     <section class="formacao" id="formacao" aria-label="Formação">
         <div class="formacao-container">
             <h2 class="subtitulo">Formação</h2>
-            <div>
+            <div class="formacao-box">
                 <div>
                     <p class="formacao-texto">
-                        Procuro sempre buscar novos conceitos e maneira diferentes de organizar minhas tarefa, com isso,
+                        Procuro sempre buscar novos conceitos e maneira diferentes de organizar minhas tarefa, com
+                        isso,
                         me
-                        mantenho sempre atualizado com curso intensivos.
+                        mantenho sempre atualizado com curso e buscando praticar minhas habilidades.
                     </p>
                 </div>
                 <ul class="faculdade-lista">
@@ -118,7 +133,8 @@
                     <li class="faculdade">
                         <span class="faculdade-tipo icon-facul-2">Cursos</span>
                         <h3 class="faculdade-curso margin-bottom-10">UI Design para Iniciantes <span>34h</span></h3>
-                        <h3 class="faculdade-curso margin-bottom-40">HTML e CSS para Iniciantes <span>23h</span></h3>
+                        <h3 class="faculdade-curso margin-bottom-40">HTML e CSS para Iniciantes <span>23h</span>
+                        </h3>
                         <span class="faculdade-escola">Origamid</span>
                     </li>
                 </ul>
@@ -137,6 +153,21 @@
 
     <footer class="footer" id="contato">
         <div class="footer-container">
+            <div class="footer-info">
+                <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e
+                    marcamos
+                    uma
+                    conversa.</p>
+                <ul class="footer-contato">
+                    <li><a href="https://www.linkedin.com/in/maycon-diego-kl%C3%BCser-72ab9a211/"><img
+                                src="./img/linkedin-logo.svg" alt="LinkedIn do Maycon Diego Klüser"></a>
+                        <a href="https://github.com/MayconKluser"><img src="./img/github-logo.svg"
+                                alt="GitHub do Maycon Diego Klüser"></a>
+                        <a href="https://www.facebook.com/loomacode"><img src="./img/facebook.svg"
+                                alt="GitHub do Maycon Diego Klüser"></a>
+                    </li>
+                </ul>
+            </div>
             <form action="./enviar.php" method="post" class="footer-form">
                 <div>
                     <label for="nome">Nome:</label>
@@ -156,27 +187,15 @@
                 </div>
                 <button class="btn">Enviar</button>
             </form>
-
-            <div class="footer-info">
-                <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e
-                    marcamos
-                    uma
-                    conversa.</p>
-                <ul class="footer-contato">
-                    <li><a href="https://www.linkedin.com/in/maycon-diego-kl%C3%BCser-72ab9a211/"><img
-                                src="./img/linkedin-logo.svg" alt="LinkedIn do Maycon Diego Klüser"></a>
-                        <a href="https://github.com/MayconKluser"><img src="./img/github-logo.svg"
-                                alt="GitHub do Maycon Diego Klüser"></a>
-                        <a href="https://www.facebook.com/loomacode"><img src="./img/facebook.svg"
-                                alt="GitHub do Maycon Diego Klüser"></a>
-                    </li>
-                </ul>
-            </div>
             <p class="footer-copy">Looma_code. Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/app.js"></script>
     <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
     <script src="./js/formulario.js"></script>
+    <script src="./js/plugins/particles.min.js"></script>
+    <script src="./js/plugins/app.js"></script>
 </body>
 
 </html>

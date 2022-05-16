@@ -1,8 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   background-color: #444;
   margin: 0;
   font-family: "Fira Sans", Arial, sans-serif;
   color: #f1f1f1;
+  position: relative;
 }
 
 h1,
@@ -52,6 +58,12 @@ a {
   max-width: 4ch; /* "ch"  significa tamanho de 4 carácter, com base no número "0"*/
 }
 
+body#particles-js {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
 @media (max-width: 900px) {
   .subtitulo {
     font-size: 3rem;
