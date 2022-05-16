@@ -7,7 +7,7 @@
     <meta name="description"
         content="Desenvolvedor Front end, Back and & UX/UI Designer. Localizado em Santa Catarina. Criação de WebSites.">
     <title>Looma_code</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 
@@ -30,10 +30,10 @@
 
     <main class="intro container">
 
-        <img src="./img/img-social-bg 1.png" alt="Imagem do desenvolvedor Web" width="360" height="520">
+        <img src="./img/img-social-bg.png" alt="Imagem do desenvolvedor Web" width="360" height="520">
 
         <div>
-            <h1>Desenvolvedor <br>Front end, <br>Back and & <br>UX/UI Designer</h1>
+            <h1>Desenvolvedor <br>Front End & <br>UX/UI Designer</h1>
             <p>Maycon Diego Klüser</p>
             <p>Desenvolvedor Junior</p>
             <p>Localizado em Santa Catarina</p>
@@ -46,10 +46,10 @@
             <p class="experiencia-texto">Desenvolvo pequenos projetos como o Looma code, Boa Boca e Focus Células
                 Industriais utilizando
                 <strong>HTML</strong>,
-                <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>PHP</strong>.
+                <strong>CSS</strong>, <strong>JavaScript</strong>.
             </p>
             <div class="empresa">
-                <span class="empresa-ano">22/05/2022</span>
+                <span class="empresa-ano">14/03/2022</span>
                 <h3 class="empresa-titulo">Looma Code</h3>
                 <span class="empresa-titulo">Desenvolvedor Front-end</span>
                 <p class="empresa-texto">Este é o meu primeiro projeto pessoal e meu atual website, colocando em pratica
@@ -59,13 +59,14 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>UI design</li>
+                    <li>UI design / UX design</li>
                 </ul>
-                <a class="empresa-website" href="#">www.loomacode.com.br</a>
+                <a class="empresa-website" target="_blank"
+                    href="https://mayconkluser.github.io/">www.loomacode.com.br</a>
             </div>
 
             <div class="empresa">
-                <span class="empresa-ano">22/05/2022</span>
+                <span class="empresa-ano">16/05/2022</span>
                 <h3 class="empresa-titulo">Boa Boca</h3>
                 <span class="empresa-titulo">Desenvolvedor Front-end</span>
                 <p class="empresa-texto">Desenvolvi este website, totalmente gratuitamente para um restaurante de
@@ -74,12 +75,13 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>UI design</li>
+                    <li>UI design / UX design</li>
                 </ul>
-                <a class="empresa-website" href="#">www.boaboca.com.br</a>
+                <a class="empresa-website" target="_blank"
+                    href="https://mayconkluser.github.io/projeto-boaboca/">www.boaboca.com.br</a>
             </div>
 
-            <div class="empresa">
+            <!-- <div class="empresa">
                 <span class="empresa-ano">22/05/2022</span>
                 <h3 class="empresa-titulo">Focus Células Industriais</h3>
                 <span class="empresa-titulo">Desenvolvedor Front-end</span>
@@ -92,7 +94,7 @@
                     <li>UI design</li>
                 </ul>
                 <a class="empresa-website" href="#">www.focuscelulas.com.br</a>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -135,22 +137,43 @@
 
     <footer class="footer" id="contato">
         <div class="footer-container">
-            <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos
-                uma
-                conversa.</p>
-            <ul class="footer-contato">
-                <li>mayconkluser@loomacode.com</li>
-                <li>+55 47 99605-8712</li>
-                <li><a href="https://www.linkedin.com/in/maycon-diego-kl%C3%BCser-72ab9a211/"><img
-                            src="./img/linkedin-logo.svg" alt="LinkedIn do Maycon Diego Klüser"></a>
-                    <a href="https://github.com/MayconKluser"><img src="./img/github-logo.svg"
-                            alt="GitHub do Maycon Diego Klüser"></a>
-                </li>
+            <form action="" class="footer-form">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                </div>
+            </form>
 
-
-            </ul>
+            <div class="footer-info">
+                <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e
+                    marcamos
+                    uma
+                    conversa.</p>
+                <ul class="footer-contato">
+                    <li><a href="https://www.linkedin.com/in/maycon-diego-kl%C3%BCser-72ab9a211/"><img
+                                src="./img/linkedin-logo.svg" alt="LinkedIn do Maycon Diego Klüser"></a>
+                        <a href="https://github.com/MayconKluser"><img src="./img/github-logo.svg"
+                                alt="GitHub do Maycon Diego Klüser"></a>
+                        <a href="https://www.facebook.com/loomacode"><img src="./img/facebook.svg"
+                                alt="GitHub do Maycon Diego Klüser"></a>
+                    </li>
+                </ul>
+            </div>
             <p class="footer-copy">Looma_code. Alguns direitos reservados.</p>
         </div>
+
     </footer>
 </body>
 
