@@ -4,7 +4,8 @@
   margin: 0;
 }
 body {
-  background-color: #444;
+  background: linear-gradient(180deg, var(--cor-a14), var(--cor-a18));
+  /* background-color: #444; */
   margin: 0;
   font-family: "Fira Sans", Arial, sans-serif;
   color: #f1f1f1;

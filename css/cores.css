@@ -13,6 +13,28 @@
   --cor-c3: #dedede;
   --cor-c2: #ededed;
   --cor-c1: #f7f7f7;
+  /* CORES azul */
+  --cor-a18: #010710;
+  --cor-a17: #020e20;
+  --cor-a16: #031530;
+  --cor-a15: #051c40;
+  --cor-a16: #062350;
+  --cor-a15: #072a60;
+  --cor-a14: #093170;
+  --cor-a13: #0a3880;
+  --cor-a12: #0b3f90;
+  --cor-a11: #0d47a1;
+  --cor-a10: #2559aa;
+  --cor-azul: #3d6bb3;
+  --cor-a9: #3d6bb3;
+  --cor-a8: #557ebd;
+  --cor-a7: #9eb5d9;
+  --cor-a6: #6d90c6;
+  --cor-a5: #86a3d0;
+  --cor-a4: #3d6bb3;
+  --cor-a3: #b6c7e2;
+  --cor-a2: #cedaec;
+  --cor-a1: #e6ecf5;
 }
 /* CORES CINZA */
 .preto {
@@ -55,122 +77,63 @@
   color: #ffffff;
 }
 
-/* COR DOURADO */
-.d18 {
-  color: #181202;
+/* COR azul */
+.a18 {
+  color: #010710;
 }
-.d17 {
-  color: #302504;
+.a17 {
+  color: #020e20;
 }
-.d16 {
-  color: #483806;
+.a16 {
+  color: #031530;
 }
-.d15 {
-  color: #604b08;
+.a15 {
+  color: #051c40;
 }
-.d14 {
-  color: #795e0b;
+.a14 {
+  color: #062350;
 }
-.d13 {
-  color: #91700d;
+.a13 {
+  color: #072a60;
 }
-.d12 {
-  color: #a9830f;
+.a12 {
+  color: #093170;
 }
-.d11 {
-  color: #c19611;
+.a11 {
+  color: #0a3880;
 }
-.d10 {
-  color: #d9a913;
+.a10 {
+  color: #0b3f90;
 }
-.logo-d {
-  color: #f2bc16;
+.azul {
+  color: #0d47a1;
 }
-.d9 {
-  color: #f3c22d;
+.a9 {
+  color: #2559aa;
 }
-.d8 {
-  color: #f4c944;
+.a8 {
+  color: #3d6bb3;
 }
-.d7 {
-  color: #f5d05b;
+.a7 {
+  color: #557ebd;
 }
-.d6 {
-  color: #f7d673;
+.a6 {
+  color: #6d90c6;
 }
-.d5 {
-  color: #f8dd8a;
+.a5 {
+  color: #86a3d0;
 }
-.d4 {
-  color: #f9e4a1;
+.a4 {
+  color: #9eb5d9;
 }
-.d3 {
-  color: #fbeab9;
+.a3 {
+  color: #b6c7e2;
 }
-.d2 {
-  color: #fcf1d0;
+.a2 {
+  color: #cedaec;
 }
-.d1 {
-  color: #fdf8e7;
-}
-
-/* COR MARROM */
-.m18 {
-  color: #0c0000;
-}
-.m17 {
-  color: #190000;
-}
-.m16 {
-  color: #260000;
-}
-.m15 {
-  color: #330000;
-}
-.m14 {
-  color: #400100;
-}
-.m13 {
-  color: #4d0100;
-}
-.m12 {
-  color: #5a0100;
-}
-.m11 {
-  color: #670100;
-}
-.m10 {
-  color: #740100;
-}
-.logo-m {
-  color: #810200;
-}
-.m9 {
-  color: #8d1b19;
-}
-.m8 {
-  color: #9a3432;
-}
-.m7 {
-  color: #a64d4c;
-}
-.m6 {
-  color: #b36766;
-}
-.m5 {
-  color: #c0807f;
-}
-.m4 {
-  color: #cc9999;
-}
-.m3 {
-  color: #d9b3b2;
-}
-.m2 {
-  color: #e5cccc;
-}
-.m1 {
-  color: #f2e5e5;
+.a1 {
+  color: #e6ecf5;
 }
 
 /* MSG ERROR */

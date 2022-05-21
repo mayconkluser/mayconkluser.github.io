@@ -1,6 +1,7 @@
 .formacao {
-  background-color: #292929;
-  color: #fff;
+  /* background-color: #292929; */
+  /* background: linear-gradient(180deg, var(--cor-a14), var(--cor-a15)); */
+  /* color: #fff; */
 }
 
 .formacao-container {
@@ -25,7 +26,7 @@
 }
 
 .formacao .subtitulo {
-  color: #141414;
+  /* color: #141414; */
   order: 1;
   max-width: 5ch; /* "ch"  significa tamanho de 4 carácter, com base no número "0"*/
 }
@@ -33,9 +34,9 @@
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   max-width: 80ch;
-  color: #b3b3b3;
+  /* color: #b3b3b3; */
 }
 
 .faculdade-lista {
@@ -49,7 +50,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #000000;
+  background-color: var(--cor-a17);
   padding: 20px;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -60,7 +61,7 @@
 
 .faculdade-tipo {
   text-transform: uppercase;
-  color: #b8b8b8;
+  /* color: #b8b8b8; */
   margin-bottom: 10px;
 }
 
@@ -82,12 +83,12 @@
 }
 
 .faculdade-curso span {
-  color: #a3a3a3;
+  /* color: #a3a3a3; */
 }
 
 .faculdade-escola {
   font-size: 1.125rem;
-  color: #b8b8b8;
+  /* color: #b8b8b8; */
   align-content: flex-end;
 }
 
@@ -137,12 +138,12 @@ span.icon-facul-2::before {
 @media (max-width: 900px) {
   .formacao-container {
     grid-template-columns: 1fr;
-    padding: 60px 20px;
-    gap: 40px;
+    padding: 0px 20px 40px 20px;
+    gap: 20px;
   }
 
   .formacao .subtitulo {
-    color: #fff;
+    color: var(--cor-a2);
     grid-row: 1;
     font-size: 2.2rem;
     text-align: left;
