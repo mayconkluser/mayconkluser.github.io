@@ -33,9 +33,9 @@
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  margin-bottom: 60px;
-  max-width: 40ch;
-  color: #7a7a7a;
+  margin-bottom: 40px;
+  max-width: 80ch;
+  color: #b3b3b3;
 }
 
 .faculdade-lista {
@@ -144,13 +144,14 @@ span.icon-facul-2::before {
   .formacao .subtitulo {
     color: #fff;
     grid-row: 1;
+    font-size: 2.2rem;
+    text-align: left;
   }
 
   .formacao-texto {
     font-size: 1.25rem;
-    text-align: center;
-    margin: 0 auto 60px auto;
     max-width: 60ch;
+    text-align: left;
   }
 }
 

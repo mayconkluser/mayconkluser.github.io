@@ -4,15 +4,21 @@
   display: block;
 }
 
-#experienvias-page .experiencia-texto {
+#experienvias-page .experiencia-page-texto {
   max-width: 80ch;
   line-height: 1.5;
   font-size: 1.2rem;
+  /* color: #f5f5f5; */
+  line-height: 1.4;
+}
+#experienvias-page .experiencia-page-texto strong {
+  color: #efc418;
 }
 
 #experienvias-page .container {
   grid-template-columns: 1fr;
   gap: 60px;
+  padding: 0 20px;
 }
 
 #experienvias-page .experiencia-info {
@@ -24,14 +30,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 20px;
-}
-.experiencia-texto {
-  margin: 0 auto;
-}
-
-#experienvias-page .experiencia-texto {
-  margin-bottom: 0;
-  margin: 0;
 }
 
 #experienvias-page .empresa-ano {
@@ -55,11 +53,15 @@
     grid-template-columns: 1fr;
     gap: 0px 20px;
   }
+  #experienvias-page .container {
+    gap: 40px;
+  }
 
   #experienvias-page .subtitulo {
-    font-size: 3rem;
+    font-size: 2.2rem;
+    margin-top: 20px;
   }
-  #experienvias-page .experiencia-texto {
+  #experienvias-page .experiencia-page-texto {
     max-width: 80ch;
     font-size: 1rem;
   }
