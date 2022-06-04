@@ -39,8 +39,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#efc418, #b7f39d);
-
+  background: linear-gradient(#efc418, #d95098);
   position: absolute;
   left: -4px;
   top: 20px;
